@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Justin | IT Student Portfolio</title>
+  <meta name="description" content="Justin Pabalate, an IT student creating fun, interactive games and gameplay mechanics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap head-in">
+      <a href="index.html" class="brand">Justin</a>
+      <nav id="nav" class="nav" aria-label="Main">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="quizzes.html">Quizzes</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="head-tools">
+        <button class="icon-btn theme-btn" id="themeBtn" aria-label="Toggle dark mode"><span class="sun">☀️</span><span class="moon">🌙</span></button>
+        <button class="icon-btn menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav"><i></i><i></i><i></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <span class="blob b1"></span><span class="blob b2"></span>
+      <div class="wrap hero-grid">
+        <div class="hero-photo reveal">
+          <div class="photo-card">
+            <div class="inner">
+              <span class="photo-fallback" aria-hidden="true">J</span>
+              <img src="images/profile.jpg" alt="Portrait of Justin Pabalate in a black suit and navy tie" onerror="this.style.display='none'">
+            </div>
+          </div>
+          <span class="float-chip c1">🎮 Game dev</span>
+          <span class="float-chip c2">💻 IT Student</span>
+        </div>
+
+        <div class="reveal">
+          <p class="eyebrow">Portfolio 2026</p>
+          <h1>Hi, I’m <span class="grad-text">Justin Pabalate</span>.</h1>
+          <p class="lead">I’m an IT student creating fun, interactive games and gameplay mechanics. Welcome to my portfolio!</p>
+          <p class="exploring"><strong>Currently exploring:</strong> game development · gameplay programming · C# &amp; Unity · 2D/3D physics</p>
+          <div class="btn-row">
+            <a class="btn primary" href="projects.html">View my project</a>
+            <a class="btn" href="contact.html">Contact me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2>Explore</h2>
+        <div class="tiles">
+          <a class="tile reveal" href="about.html"><span class="ico">👤</span><h3>About &amp; Skills</h3><p>My background and what I’m learning.</p><span class="go">Open →</span></a>
+          <a class="tile reveal" href="quizzes.html"><span class="ico">📝</span><h3>Quizzes</h3><p>My scores and what each one taught me.</p><span class="go">Open →</span></a>
+          <a class="tile reveal" href="projects.html"><span class="ico">🎯</span><h3>Projects</h3><p>Operation: Black Signal, my Roblox team game.</p><span class="go">Open →</span></a>
+          <a class="tile reveal" href="contact.html"><span class="ico">✉️</span><h3>Contact</h3><p>Let’s connect through email.</p><span class="go">Open →</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot-in">
+      <p>© 2026 Justin. Built with HTML, CSS, and JavaScript.</p>
+      <a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Back to top ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

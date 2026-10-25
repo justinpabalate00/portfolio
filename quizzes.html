@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quizzes | Justin</title>
+  <meta name="description" content="Quiz and exam results from IT Project Management, with what Justin learned.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap head-in">
+      <a href="index.html" class="brand">Justin</a>
+      <nav id="nav" class="nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="quizzes.html" aria-current="page">Quizzes</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="head-tools">
+        <button class="icon-btn theme-btn" id="themeBtn" aria-label="Toggle dark mode"><span class="sun">☀️</span><span class="moon">🌙</span></button>
+        <button class="icon-btn menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav"><i></i><i></i><i></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="page-head reveal">
+      <p class="eyebrow">02 · Quizzes</p>
+      <h1>Quiz <span class="grad-text">results</span></h1>
+      <p>Free Elective 3: IT Project Management · online exam portal</p>
+    </div>
+
+    <section class="section" style="padding-top:8px">
+      <div class="quiz-grid">
+        <article class="quiz reveal">
+          <div class="quiz-top"><span class="tag">Quiz 1</span><span class="date">Sept 23</span></div>
+          <div class="score"><strong data-count="15">0</strong><span>/ 20</span></div>
+          <div class="bar" role="img" aria-label="75 percent"><i data-w="75%"></i></div>
+          <p class="pct">75%</p>
+          <h3>Semifinal Quiz 1: Agile Execution</h3>
+          <p class="topic">Week 9: the Agile Manifesto, Scrum roles, sprint planning, and Product vs. Sprint Backlog.</p>
+          <div class="learned">
+            <h4>What I learned</h4>
+            <ul>
+              <li>Each Scrum role has its own job: the Product Owner orders the backlog, the Scrum Master clears obstacles, and the Development Team builds each increment.</li>
+              <li>Agile work happens in short, repeating sprints, so the team can show something usable and get feedback early.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="quiz reveal">
+          <div class="quiz-top"><span class="tag">Quiz 2</span><span class="date">Sept 23</span></div>
+          <div class="score"><strong data-count="20">0</strong><span>/ 30</span></div>
+          <div class="bar" role="img" aria-label="67 percent"><i data-w="67%"></i></div>
+          <p class="pct">67%</p>
+          <h3>Semifinal Quiz 2: Tracking Tools</h3>
+          <p class="topic">Week 10: Kanban boards and comparing Jira, Trello, and ClickUp.</p>
+          <div class="learned">
+            <h4>What I learned</h4>
+            <ul>
+              <li>No tracking tool is the best for everyone. The right pick depends on team size, how complex the work is, and how closely the team follows Scrum.</li>
+              <li>Digital boards beat paper because they update live, the whole team can see them, and they keep a record of every change.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="quiz reveal">
+          <div class="quiz-top"><span class="tag">Semifinal exam</span><span class="date">Sept 25</span></div>
+          <div class="score"><strong data-count="45">0</strong><span>/ 50</span></div>
+          <div class="bar" role="img" aria-label="90 percent"><i data-w="90%"></i></div>
+          <p class="pct">90%</p>
+          <h3>Semifinal Exam: FE 3</h3>
+          <p class="topic">Weeks 9 to 12: Agile execution, tracking tools, monitoring and control, quality assurance, and change management.</p>
+          <div class="learned">
+            <h4>What I learned</h4>
+            <ul>
+              <li>Scrum roles, sprint planning, and backlogs turn a big plan into manageable weekly work.</li>
+              <li>Progress should be tracked with the right tools, and changes must be monitored and controlled instead of added randomly.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot-in">
+      <p>© 2026 Justin. Built with HTML, CSS, and JavaScript.</p>
+      <a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Back to top ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

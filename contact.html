@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Justin</title>
+  <meta name="description" content="Contact Justin by email.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap head-in">
+      <a href="index.html" class="brand">Justin</a>
+      <nav id="nav" class="nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="quizzes.html">Quizzes</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+      <div class="head-tools">
+        <button class="icon-btn theme-btn" id="themeBtn" aria-label="Toggle dark mode"><span class="sun">☀️</span><span class="moon">🌙</span></button>
+        <button class="icon-btn menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav"><i></i><i></i><i></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="section" style="padding-top:clamp(40px,8vw,90px)">
+      <div class="contact-card reveal">
+        <p class="eyebrow">04 · Contact</p>
+        <h2>Let’s <span class="grad-text">connect</span></h2>
+        <p>Open to feedback, team projects, and learning opportunities.</p>
+        <div class="btn-row">
+          <a class="btn primary mail" href="mailto:justinpabalate00@gmail.com">✉️ justinpabalate00@gmail.com</a>
+          <button class="btn" id="copyBtn" data-email="justinpabalate00@gmail.com" type="button">Copy email</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <footer class="site-footer">
+    <div class="wrap foot-in">
+      <p>© 2026 Justin. Built with HTML, CSS, and JavaScript.</p>
+      <a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Back to top ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

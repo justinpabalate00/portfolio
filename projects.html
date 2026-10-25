@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | Justin</title>
+  <meta name="description" content="Operation: Black Signal, a Roblox Studio team project.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap head-in">
+      <a href="index.html" class="brand">Justin</a>
+      <nav id="nav" class="nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="quizzes.html">Quizzes</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="head-tools">
+        <button class="icon-btn theme-btn" id="themeBtn" aria-label="Toggle dark mode"><span class="sun">☀️</span><span class="moon">🌙</span></button>
+        <button class="icon-btn menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav"><i></i><i></i><i></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="page-head reveal">
+      <p class="eyebrow">03 · Projects</p>
+      <h1>My <span class="grad-text">project</span></h1>
+    </div>
+
+    <section class="section" style="padding-top:8px">
+      <article class="project reveal">
+        <div class="poster" data-tilt>
+          <span class="poster-fallback" aria-hidden="true">Operation: Black Signal</span>
+          <img src="images/black-signal.jpg" alt="Operation: Black Signal poster showing a hooded figure with glowing green eyes" onerror="this.style.display='none'">
+        </div>
+        <div class="project-body">
+          <div class="project-head">
+            <h2>Operation: Black Signal</h2>
+            <span class="status">In progress</span>
+          </div>
+          <p class="meta">Roblox Studio · Team project · 5 members</p>
+          <p>A team-built tactical shooter in Roblox Studio, where Task Force goes up against the Syndicate. We shared our progress in a video presentation.</p>
+          <p><strong>My contribution:</strong> I was the programmer and map designer for our five-person team. I wrote the scripts that make the gameplay work and designed the map where the matches take place, making sure my code and level layout fit together with the UI, weapons, and the other parts built by my teammates.</p>
+          <div class="learned">
+            <h4>Challenges and what I learned</h4>
+            <ul>
+              <li>With five people on one game, my scripts and map had to stay compatible with everyone else’s work, so we agreed early on how each part connects.</li>
+              <li>Designing the map taught me that layout shapes gameplay: routes, cover, and sightlines decide whether a fight feels fair for both Task Force and the Syndicate.</li>
+              <li>Building features one small step at a time and playtesting often helped me catch bugs early, before they affected the rest of the team.</li>
+            </ul>
+          </div>
+          <p class="meta">Progress shared via video presentation</p>
+        </div>
+      </article>
+
+      <article class="project alt reveal">
+        <div class="project-body">
+          <div class="project-head">
+            <h2>This Portfolio Website</h2>
+            <span class="status live">Live</span>
+          </div>
+          <p class="meta">HTML · CSS · JavaScript · GitHub Pages</p>
+          <p>A responsive multi-page site with a mobile menu, a light and dark theme, and animated quiz scores. It covers who I am, what I can do, and what I’ve built.</p>
+          <p><strong>My contribution:</strong> I wrote the content, chose which projects to feature, tested the layout on my phone, and published it on GitHub Pages. AI helped generate and refine the starting code.</p>
+          <div class="learned">
+            <h4>Challenges and what I learned</h4>
+            <ul>
+              <li>Designing for a narrow phone screen first, then scaling up.</li>
+              <li>Linking pages with <code>href="about.html"</code> and keeping file paths and folder names correct for hosting.</li>
+            </ul>
+          </div>
+          <a class="btn primary" href="index.html">View this site →</a>
+        </div>
+        <div class="shot">
+          <span class="shot-fallback" aria-hidden="true">This Portfolio</span>
+          <img src="images/portfolio.jpg" alt="Screenshot of the home page of this portfolio website" onerror="this.style.display='none'">
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot-in">
+      <p>© 2026 Justin. Built with HTML, CSS, and JavaScript.</p>
+      <a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Back to top ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

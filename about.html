@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About &amp; Skills | Justin</title>
+  <meta name="description" content="About Justin and the skills he has and is still learning.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap head-in">
+      <a href="index.html" class="brand">Justin</a>
+      <nav id="nav" class="nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html" aria-current="page">About</a>
+        <a href="quizzes.html">Quizzes</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="head-tools">
+        <button class="icon-btn theme-btn" id="themeBtn" aria-label="Toggle dark mode"><span class="sun">☀️</span><span class="moon">🌙</span></button>
+        <button class="icon-btn menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav"><i></i><i></i><i></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="page-head reveal">
+      <p class="eyebrow">01 · About</p>
+      <h1>About <span class="grad-text">me</span></h1>
+    </div>
+
+    <section class="section" style="padding-top:8px">
+      <div class="story-grid">
+        <article class="story reveal">
+          <h3>Where I Started</h3>
+          <p>As an IT student at Cebu Eastern College, I built my foundation in web development with HTML and JavaScript on my laptop. Managing my code carefully taught me how to keep my project structure organized and efficient.</p>
+        </article>
+        <article class="story reveal">
+          <h3>What I Enjoy</h3>
+          <p>I enjoy building useful software and interactive games. Game development is my favorite creative outlet—there’s nothing better than working with a team to design levels and code fun game logic.</p>
+        </article>
+        <article class="story reveal">
+          <h3>Where I’m Going</h3>
+          <p>My goals are to deepen my game programming knowledge, improve my code structure, and finish my capstone project. I constantly learn with AI tools by testing and refining every solution.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="reveal">Skills</h2>
+      <div class="skill-grid">
+        <article class="skill-card reveal">
+          <h3>Comfortable with</h3>
+          <ul class="tags">
+            <li>HTML &amp; CSS</li><li>JavaScript</li><li>Responsive Design</li><li>Basic Programming Logic</li><li>Git Basics</li><li>Teamwork</li>
+          </ul>
+        </article>
+        <article class="skill-card reveal">
+          <h3>Still learning</h3>
+          <ul class="tags">
+            <li>Gameplay Mechanics</li><li>C# &amp; Unity</li><li>Level &amp; Map Design</li><li>2D Physics &amp; Collision</li><li>Agile &amp; Scrum</li><li>Project Management Tools</li>
+          </ul>
+        </article>
+        <article class="skill-card reveal">
+          <h3>How I work</h3>
+          <ul class="tags">
+            <li>Modular coding</li><li>Step-by-step builds</li><li>Iterative playtesting</li><li>Collaborative teamwork</li><li>AI-assisted development</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot-in">
+      <p>© 2026 Justin. Built with HTML, CSS, and JavaScript.</p>
+      <a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Back to top ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
